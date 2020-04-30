@@ -42,7 +42,7 @@ if (args.fahrenheit) {
 const TAB = '  ';
 
 const devices = getTemperDevices();
-console.log('Found %s devices', _.size(devices));
+//console.log('Found %s devices', _.size(devices));
 if (args.poll) {
     setInterval(() => getAndPrintTemp(), args.poll);
 } else {
